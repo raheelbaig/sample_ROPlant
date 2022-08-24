@@ -7,8 +7,8 @@ function Slider() {
     return (
         <div className="slide" >
             
-         <video height="600" controls poster={image}>
-            <source width="1200px" src={video} type='video/mp4'></source>
+         <video  controls poster={image}>
+            <source src={video} type='video/mp4'></source>
          </video>
         </div>
     )

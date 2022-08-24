@@ -4,5 +4,13 @@
 }
 
 li:hover {
-    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    background-color: #32cd32;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: -1px 11px 13px -3px rgba(92,102,96,0.77);
+    transition-duration: 0.3s;
 }

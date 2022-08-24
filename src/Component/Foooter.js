@@ -21,10 +21,10 @@ export const Foooter = () => {
             {/* <a href="/" className="d-flex align-items-center p-0 text-dark">
               <span className="ml-3 h5 font-weight-bold align-item-center border 1px-solid-black">About</span>
             </a> */}
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-4" style={{ fontWeight: '600', fontSize:"1.5em", fontWeight:"bold" }}>
               About
             </p>
-            <p className="my-3" style={{ width: '250px' }}>
+            <p className="my-3" style={{ width: '250px', fontSize:"1.3em" }}>
             RO Solution Water Treatment 
 Company is one of the finest 
 companies in Pakistan dealing 
@@ -37,44 +37,44 @@ environment with passion and
 commitment.
             </p>
           </CDBBox>
-          <div className="vl"></div>
+          <div className="vl2"></div>
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-4" style={{ fontWeight: '600',fontSize:"1.5em", fontWeight:"bold" }}>
               Quick Link
             </p>
-            <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '0' }}>
-              <CDBFooterLink href="/">Home</CDBFooterLink>
-              <CDBFooterLink href="/">Products</CDBFooterLink>
-              <CDBFooterLink href="/">Services</CDBFooterLink>
-              <CDBFooterLink href="/">Projects</CDBFooterLink>
-              <CDBFooterLink href="/">Profile</CDBFooterLink>
+            <CDBBox className="quickLink" flex="column" display="flex" style={{ cursor: 'pointer', padding: '0'}}>
+              <CDBFooterLink href="/" style={{fontSize:"1.3em", marginBottom:"5px"}}>Home</CDBFooterLink>
+              <CDBFooterLink href="/" style={{fontSize:"1.3em", marginBottom:"5px"}}>Products</CDBFooterLink>
+              <CDBFooterLink href="/" style={{fontSize:"1.3em", marginBottom:"5px"}}>Services</CDBFooterLink>
+              <CDBFooterLink href="/" style={{fontSize:"1.3em", marginBottom:"5px"}}>Projects</CDBFooterLink>
+              <CDBFooterLink href="/" style={{fontSize:"1.3em", marginBottom:"5px"}}>Profile</CDBFooterLink>
             </CDBBox>
           </CDBBox>
-          <div className="vl"></div>
+          <div className="vl2"></div>
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-4" style={{ fontWeight: '600', fontSize:"1.5em", fontWeight:"bold" }}>
               Get A Quote
             </p>
             <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
               <Foorm />
             </CDBBox>
           </CDBBox>
-          <div className="vl"></div>
+          <div className="vl2"></div>
 
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-4" style={{ fontWeight: '600', fontSize:"1.5em", fontWeight:"bold" }}>
               Get In Touch
             </p>
             <CDBBox className="getInTouch" display="flex" flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-        <LocationOnIcon />
+        <LocationOnIcon className='icon'/>
         <br/>
-        <DialpadIcon />
+        <DialpadIcon className='icon'/>
         <br/>
-        <EmailIcon />
+        <EmailIcon className='icon'/>
         <br/>
-        <FacebookIcon />
+        <FacebookIcon className='icon'/>
         <br/>
-        <YouTubeIcon />
+        <YouTubeIcon className='icon'/>
 
               {/* <CDBFooterLink href="/">Windframe</CDBFooterLink>
               <CDBFooterLink href="/">Loop</CDBFooterLink>

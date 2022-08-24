@@ -2,6 +2,7 @@ import React from "react";
 import "./whychoose.css";
 import ProductCard from "./ProductCard";
 import { display } from "@mui/system";
+import image1 from '../Assets/webLogo.png'
 
 function WhyChoose() {
   return (
@@ -12,18 +13,21 @@ function WhyChoose() {
       <div className="productss">
         <ProductCard
           title="(ICON)
-Superior Quality equipment 
-& Component"
+SUPERIOR QUALITY EQUIPEMENT 
+& COMPONENT"
+img={image1}
+        />
+        <ProductCard className="productCard"
+          title="(ICON)
+TOP NO-TECH SERVICES & 
+WORKMANSHIP"
+img={image1}
         />
         <ProductCard
           title="(ICON)
-Top No-tech Services & 
-workmanship"
-        />
-        <ProductCard
-          title="(ICON)
-Countless Successful 
-Projects"
+COUNTLESS SUCCESSFULL 
+PROJECTS"
+img={image1}
         />
       </div>
     </div>

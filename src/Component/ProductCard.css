@@ -1,38 +1,37 @@
-.card1{
-    cursor: pointer;
-    margin:5px 8px;
-    padding:0px;
-    border: 2px solid rgb(6, 255, 35);
-    border-radius: 10px;
+.card1 {
+  cursor: pointer;
+  margin: 5px 8px;
+  padding: 0px;
+  border: 2px solid rgb(6, 255, 35);
+  border-radius: 10px;
+  transition-duration: 0.5s;
 }
 
 .card1:hover {
-    background: linear-gradient(
-        45deg,
-        rgba(29, 236, 197, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
-.ads-img{
-    background: rgb(61, 59, 59);
+.ads-img {
+  background: rgb(61, 59, 59);
 }
 
-.card-title{
-    padding: 10px;
-    font-weight: 400;
-    font-size: 1rem;
-    color:#fff;
+.card-title {
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
 }
-.title-bar{
-    display: flex;
-    justify-content: space-between;
+.title-bar {
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
-    text-align: center;
-    justify-content: center;
-    /* color: black; */
-    /* background-color: aqua; */
-    width: 100%;
+  text-align: center;
+  justify-content: center;
+  /* color: black; */
+  /* background-color: aqua; */
+  width: 100%;
 }
