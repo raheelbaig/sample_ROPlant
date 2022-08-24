@@ -1,0 +1,38 @@
+.get-direction {
+    background-color: rgb(5, 128, 19);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+strong {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+}
+
+button {
+    background-color: rgb(48, 47, 47);
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: -1px 11px 13px -3px rgba(92,102,96,0.77);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    border: none;
+    font-weight: 300;
+}
+
+button:hover {
+    font-weight: 500;
+    background-color: white;
+    color: green;
+}
+

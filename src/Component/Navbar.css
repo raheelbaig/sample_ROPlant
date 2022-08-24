@@ -1,0 +1,8 @@
+.toggle_menu {
+    /* color: white !important; */
+    border: 2px solid white !important;
+}
+
+li:hover {
+    font-weight: bold;
+}

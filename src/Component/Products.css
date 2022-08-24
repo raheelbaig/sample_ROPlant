@@ -1,0 +1,12 @@
+.products {
+    
+    background: rgb(43, 43, 43);
+}
+.product{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}

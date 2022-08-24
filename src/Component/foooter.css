@@ -1,0 +1,12 @@
+.footer {
+    margin: 10px 40px;
+    /* border: 2px solid black; */
+}
+
+.getInTouch {
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 5px;
+    padding: 5px; */
+}
