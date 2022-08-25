@@ -1,0 +1,63 @@
+
+.whychoose {
+    margin-bottom: 10px  ;
+}
+
+.main {
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    /* text-align: center;
+    justify-content: center; */
+    background-image: url("../Assets/whyChooseImg.jpg");
+    background-size: cover; 
+    /* margin: 10px 0; */
+    height: 300px;  
+    /* width: 100%; */
+    
+}
+
+.container {
+    display: flex;
+    margin-top: 70px;
+    /* padding-bottom: 10px; */
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.section1 {
+    background-color: #277BC0;
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 420px;
+    display: flex;
+}
+
+.section2 {
+    background-color: #E9DAC1;
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 420px;
+    display: flex;
+   
+}
+
+.section3 {
+    background-color: #3B9AE1;
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 420px;
+    display: flex;
+}
+
+.image {
+    height: 120px;
+    margin-top: 5%;
+    margin-left: 8px;
+}
+
+.heading {
+    margin-top: 10%;
+    margin-right: 10px;
+}
+

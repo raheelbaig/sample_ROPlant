@@ -1,34 +1,27 @@
 import React from "react";
-import './ourvalue.css'
+import styles from './ourvalue.module.css'
 
 function Ourvalue() {
   return (
-    <div className="ourValue">
-      <div >
+    <div className={styles.ourValue}>
+      <div>
         <h1>Our Value</h1>  
         <p>
-          RO Solution Water Treatment Company is one of the finest companies in
-          Pakistan dealing in water treatment systems right from concept till
-          commissioning, followed by quality after sales services and
-          maintenance.
+        We work hard to earn and retain trust and respect. From the speed of response, access to technical insights. We value the ability of our staff and company to honour its commitments, to customers and to each other. 
         </p>
       </div>
-      <div className="vl"></div>
+      <div className={styles.vl}></div>
       <div>
         <h1>Mission</h1>
         <p>
-          RO Solution Water Treatment Company is one of the finest companies in
-          Pakistan dealing in water treatment systems right from concept till
-          commissioning, followed by quality after sales
+        Our mission is to grant protected and less expensive drinking water and to explore choice water assets for Pakistani humans and particularly the residents of Karachi via assisting them. RO Plant Karachi.
         </p>
       </div>
-      <div class="vl"></div>
+      <div className={styles.vl}></div>
       <div>
         <h1>Vision</h1>
         <p>
-          RO Solution Water Treatment Company is one of the finest companies in
-          Pakistan dealing in water treatment systems right from concept till
-          commissioning, followed by
+        Our vision is to be the most trusted provider of water associated applied sciences that make sure the Health and activism of our country and its allies. As the science leader of water-related industries, we will secure the future of our nation.
         </p>
       </div>
     </div>

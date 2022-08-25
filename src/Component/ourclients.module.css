@@ -1,0 +1,80 @@
+.heading {
+    /* border: 1px solid black;  */
+    color: black;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    padding-top: 5px;
+    /* margin-top: 20px; */
+}
+
+
+.slideshow {
+    overflow: hidden;
+    height: 110px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+    /* border: 1px solid black; */
+    /* background-color: black; */
+  }
+   
+  /* Style each of the sides
+  with a fixed width and height */
+  .slide {
+    float: left;
+    /* height: 510px; */
+    /* width: 200px; */
+    /* height: 50px; */
+  }
+   
+  /* Add animation to the slides */
+  .slideWrapper {
+     display: flex;
+     width: 200px;
+  /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(200px * 4);
+   
+  /* Specify the animation with the
+    duration and speed */
+    animation: slide 20s ease infinite;
+  }
+   
+  /* Set the background color
+  of each of the slides */
+  
+   
+  /* Define the animation
+  for the slideshow */
+  @keyframes slide {
+     
+  /* Calculate the margin-left for
+    each of the slides */
+    20% {
+      margin-left: 0px;
+    }
+   
+    40% {
+      margin-left: calc(-728px * 1);
+    }
+   
+    60% {
+      margin-left: calc(-728px * 2);
+    }
+   
+    80% {
+      margin-left: calc(-728px * 3);
+    }
+  }
+
+  .logos {
+    height: 120px;
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    
+    /* border: 1px solid black; */
+    margin: 0 30px;
+    /* width: 50px; */
+    /* font-size: 20px; */
+  }

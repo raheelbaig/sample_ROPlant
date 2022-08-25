@@ -1,0 +1,54 @@
+.footer {
+    /* margin:  40px; */
+    /* border: 2px solid black; */
+}
+
+.getInTouch {
+    /* border: 1px solid black; */
+    /* align-items: center; */
+    justify-content: space-between;
+    transition-duration: 0.5s;
+    /* margin: 5px;
+    padding: 5px; */
+}
+
+.icon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.8); 
+}
+
+.vl2 {
+    border-left: 3px solid green;
+    height: 220px;
+    margin: 5px;
+}
+
+.iconLocation {
+    display: flex;
+    /* justify-content: center; */
+}
+.iconLocation {
+    margin-right: 5px;
+}
+
+.icon {
+    display: flex;   
+    /* margin-right: 0px; */
+    /* justify-content: left; */
+    text-align: left;
+}
+
+.socialIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+}

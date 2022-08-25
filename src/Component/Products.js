@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import Container from "@mui/material/Container";
-import "./Products.css";
+import styles from "./Products.module.css";
 import image1 from "../Assets/commercial ro.jpg";
 import image2 from "../Assets/Containerized ro System.jpg";
 import image3 from "../Assets/domestic.png";
@@ -12,9 +12,9 @@ import image7 from "../Assets/ultrafiltration plant.jpg";
 
 function Products() {
   return (
-    <div className="products">
+    <div className={styles.products}>
       <Container maxWidth="xl">
-        <div className="product">
+        <div className={styles.product }>
           <ProductCard
             title="Domestic RO Filter Plant"
             img={image1}
@@ -42,6 +42,10 @@ function Products() {
           <ProductCard
             title="Ultra Filteration RO Plants"
             img={image7}
+          />
+          <ProductCard
+            title="Solar System"
+            img={image1}
           />
           <ProductCard
             title="Solar System"

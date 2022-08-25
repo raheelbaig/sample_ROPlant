@@ -1,11 +1,11 @@
 import React from 'react'
-import './getdirection.css'
+import styles from './getdirection.module.css'
 
 function GetDirection() {
   return (
-    <div className='get-direction'>
-    <div className='GetDirection'>
-        <h2>FOR MORE INQUERY CALL US <strong>03111 172 172</strong> OR VISIT <a target="_blank" href="https://www.google.com/maps/place/24%C2%B055'25.4%22N+67%C2%B005'34.5%22E/@24.923714,67.0907199,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x46b6f1ae82d8644f!8m2!3d24.923714!4d67.0929086?hl=en"> <button> Get Direction</button></a></h2>
+    <div className={styles.getDirection}>
+    <div className={styles.GetDirection}>
+        <h2 style={{}}>FOR MORE INQUERY CALL US <strong style={{fontSize:"25px", margin: "0 5px"}}>03 111 172 172</strong> OR VISIT <a target="_blank" href="https://www.google.com/maps/place/ROsolution.pk+RO+Plant/@24.9238262,67.093018,21z/data=!4m13!1m7!3m6!1s0x0:0x53f2c3ea397b194c!2zMjTCsDU1JzI1LjQiTiA2N8KwMDUnMzQuNSJF!3b1!8m2!3d24.923714!4d67.0929086!3m4!1s0x0:0x990f446455ad6915!8m2!3d24.9237703!4d67.0929534?hl=en"> <button> Get Direction</button></a></h2>
         {/* <button>GET DIRECTION</button> */}
         </div>
     </div>
