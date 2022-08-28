@@ -1,14 +1,12 @@
-import video from '../Assets/RoPlant.mp4'
-import styles from './slider.module.css'
-import image from '../Assets/posterImg.jpg'
+import video from "../Assets/RoPlant.mp4";
+import styles from "./slider.module.css";
+
 
 function Slider() {
-    return (
-        <div className={styles.slider} >    
-         <video className='styles.video' controls autoPlay muted>
-            <source src={video} type='video/mp4'></source>
-         </video>
-        </div>
-    )
+  return (
+    <video className={styles.video} controls autoPlay muted>
+      <source src={video} type="video/mp4"></source>
+    </video>
+  );
 }
 export default Slider;

@@ -19,11 +19,11 @@ function WhyChoose() {
         </div>
         <div className={styles.section2}>
         <img className={styles.image} src={image2} alt="logo" />
-        <h3 className={styles.heading}>Top No-tech Services & Workmanship</h3>
+        <h3 className={styles.heading2}>Top Notch Services & Workmanship</h3>
         </div>
         <div className={styles.section3}>
         <img className={styles.image} src={image3} alt="logo" />
-        <h3 className={styles.heading}>Countless Successful <br/>Projects</h3>
+        <h3 className={styles.heading2}>Countless Successful <br/>Projects</h3>
         </div>
       </div>
     </div>

@@ -1,3 +1,6 @@
-video {
+.video {
+    /* position: relative; */
     width: 100%;
+    /* top: 0; */
+    /* height: auto; */
 }

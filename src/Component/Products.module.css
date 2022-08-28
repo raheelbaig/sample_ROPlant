@@ -1,5 +1,6 @@
 .products {
-    background: rgb(43, 43, 43);
+    /* background: rgb(43, 43, 43); */
+    background-image: url("../Assets/productsbg.jpg");
     border: 1px solid white;
     /* margin: 5px 5px; */
 }

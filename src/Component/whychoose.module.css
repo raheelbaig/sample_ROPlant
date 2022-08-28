@@ -1,63 +1,76 @@
-
 .whychoose {
-    margin-bottom: 10px  ;
+  margin-bottom: 10px;
+  /* border: 1px solid black; */
+  padding-top: 30px;
 }
 
 .main {
-    margin-top: 5px;
-    padding-top: 10px;
-    margin-bottom: 50px;
-    /* text-align: center;
+  /* margin-top: 5px; */
+  /* padding-top: 10px; */
+  margin-bottom: 30px;
+  /* text-align: center;
     justify-content: center; */
-    background-image: url("../Assets/whyChooseImg.jpg");
-    background-size: cover; 
-    /* margin: 10px 0; */
-    height: 300px;  
-    /* width: 100%; */
-    
+  background-image: url("../Assets/whyChooseImg.jpg");
+  background-size: cover;
+  /* margin: 10px 0; */
+  height: 350px;
+  /* width: 100%; */
 }
 
 .container {
-    display: flex;
-    margin-top: 70px;
-    /* padding-bottom: 10px; */
-    justify-content: space-between;
-    /* flex-direction: column; */
+  display: flex;
+  margin-top: 70px;
+  /* padding-bottom: 10px; */
+  justify-content: space-between;
+  /* flex-direction: column; */
 }
 
 .section1 {
-    background-color: #277BC0;
-    /* border: 1px solid black; */
-    height: 150px;
-    width: 420px;
-    display: flex;
+  background-color: black;
+  color: white;
+  /* border: 1px solid white; */
+  height: 150px;
+  width: 450px;
+  display: flex;
+  padding-bottom: 100px;
+
 }
 
 .section2 {
-    background-color: #E9DAC1;
-    /* border: 1px solid black; */
-    height: 150px;
-    width: 420px;
-    display: flex;
-   
+  background: rgb(36, 144, 23);
+  background: radial-gradient(
+    circle,
+    rgba(36, 144, 23, 0.9724264705882353) 44%,
+    rgba(11, 121, 9, 1) 66%
+  );
+  color: black;
+  /* border: 1px solid black; */
+  height: 150px;
+  width: 450px;
+  display: flex;
 }
 
 .section3 {
-    background-color: #3B9AE1;
-    /* border: 1px solid black; */
-    height: 150px;
-    width: 420px;
-    display: flex;
+  background-color: black;
+  color: white;
+
+  /* border: 1px solid black; */
+  height: 150px;
+  width: 450px;
+  display: flex;
 }
 
 .image {
-    height: 120px;
-    margin-top: 5%;
-    margin-left: 8px;
+  height: 120px;
+  margin-top: 5%;
+  margin-left: 8px;
 }
 
 .heading {
-    margin-top: 10%;
-    margin-right: 10px;
+  margin-top: 5%;
+  margin-right: 10px;
 }
-
+.heading2 {
+  margin-top: 10%;
+  margin-right: 10px;
+}

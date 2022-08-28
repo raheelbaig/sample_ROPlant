@@ -2,19 +2,21 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import Container from "@mui/material/Container";
 import styles from "./Products.module.css";
-import image1 from "../Assets/commercial ro.jpg";
-import image2 from "../Assets/Containerized ro System.jpg";
-import image3 from "../Assets/domestic.png";
-import image4 from "../Assets/industrial.png";
-import image5 from "../Assets/mobile ro.jpg";
-import image6 from "../Assets/RO-Plant-Community-Reverse-Osmosis-Solution.png";
-import image7 from "../Assets/ultrafiltration plant.jpg";
+import image1 from "../Assets/domestic.png";
+import image2 from "../Assets/commercial.png";
+import image3 from "../Assets/container reverse.png";
+import image4 from "../Assets/commercial RO.png";
+import image5 from "../Assets/mobile.png";
+import image6 from "../Assets/ultrafilteration plant.png";
+import image7 from "../Assets/industrial.png";
+import image8 from "../Assets/solar.png";
+import image9 from "../Assets/industrial.png";
 
 function Products() {
   return (
     <div className={styles.products}>
       <Container maxWidth="xl">
-        <div className={styles.product }>
+        <div className={styles.product}>
           <ProductCard
             title="Domestic RO Filter Plant"
             img={image1}
@@ -45,10 +47,10 @@ function Products() {
           />
           <ProductCard
             title="Solar System"
-            img={image1}
+            img={image8}
           />
           <ProductCard
-            title="Solar System"
+            title="Services"
             img={image1}
           />
         </div>
