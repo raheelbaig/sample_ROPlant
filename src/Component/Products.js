@@ -10,7 +10,7 @@ import image5 from "../Assets/mobile.png";
 import image6 from "../Assets/ultrafilteration plant.png";
 import image7 from "../Assets/industrial.png";
 import image8 from "../Assets/solar.png";
-import image9 from "../Assets/industrial.png";
+import image9 from "../Assets/30.png";
 
 function Products() {
   return (
@@ -18,40 +18,40 @@ function Products() {
       <Container maxWidth="xl">
         <div className={styles.product}>
           <ProductCard
-            title="Domestic RO Filter Plant"
+            title="DOMESTIC RO FILTER PLANT"
             img={image1}
           />
           <ProductCard
-            title="Commercial RO Plant for bussiness"
+            title="COMMERCIAL RO PLANT FOR BUSINESS"
             img={image2}
           />
           <ProductCard
-            title="Industrial Reverse Osmosis RO Plants"
+            title="INDUSTRIAL REVERSE OSMOSIS RO PLANT"
             img={image3}
           />
           <ProductCard
-            title="Container Reverse Osmosis RO Plants"
+            title="CONTAINER REVERSE OSMOSIS RO PLANT"
             img={image4}
           />
           <ProductCard
-            title="Mobile Reverse Osmosis RO Plants"
+            title="MOBILE REVERSE OSMOSIS RO PLANT"
             img={image5}
           />
           <ProductCard
-            title="Walfare / Community RO Plants"
+            title="WALFARE/COMMUNITY RO PLANT"
             img={image6}
           />
           <ProductCard
-            title="Ultra Filteration RO Plants"
+            title="ULTRA FILTRATION RO PLANT"
             img={image7}
           />
           <ProductCard
-            title="Solar System"
+            title="SOLAR SYSTEM"
             img={image8}
           />
           <ProductCard
-            title="Services"
-            img={image1}
+            title="RO PLANT SERVICES"
+            img={image9}
           />
         </div>
       </Container>

@@ -1,7 +1,11 @@
 .products {
     /* background: rgb(43, 43, 43); */
-    background-image: url("../Assets/productsbg.jpg");
-    border: 1px solid white;
+    background-image: url("../Assets/back-ground.jpeg");
+    /* border: 1px solid white; */
+    /* height: 100%; */
+    background-size: 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
     /* margin: 5px 5px; */
 }
 .product{

@@ -1,6 +1,7 @@
 .footer {
     /* margin:  40px; */
     /* border: 2px solid black; */
+    /* display: flex; */
 }
 
 .getInTouch {
@@ -51,4 +52,21 @@
     text-align: center;
     margin-top: 25px;
     font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .flexWrap {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        justify-content: center;
+    }
+    .vl2 {
+        border-bottom: 3px solid green;
+    width: 380px;
+        height: 0;
+    }
+    .headings {
+        font-size: 2rem;
+    }
 }

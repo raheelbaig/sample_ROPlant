@@ -26,3 +26,10 @@
     margin: 0 10px;
     font-size: inherit;
 }
+
+@media (max-width: 767px) {
+    .header > img {
+      height: 100px;
+      margin-right: 30px;
+  }
+}

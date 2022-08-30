@@ -18,10 +18,8 @@ function App() {
       <Navbar1 />
       <Slider />
       <Products />
-      {/* <hr className='hr'/>  */}
       <Ourvalue />
       <WhyChoose />
-      {/* <hr className='hr'/> */}
       <OurClients />
       <GetDirection />
       <Foooter />

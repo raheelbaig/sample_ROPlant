@@ -10,7 +10,7 @@ export default function ProductCard({title,img}) {
   return (
     <div className={styles.card1} style={{width:300}}>
     <div className={styles.ads-img}>
-    <img className={styles.card-img} src={img} alt="ads" height="170" />
+    <img className={styles.card-img} src={img} alt="ads" height="300" />
     
       <div className={styles.titleBar}>
       <p className={styles.card-title}>{title}</p>

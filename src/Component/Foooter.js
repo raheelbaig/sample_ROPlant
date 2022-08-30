@@ -19,12 +19,13 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 export const Foooter = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.foooter}>
       <CDBFooter className={styles.shadow}>
         <CDBBox
+        className={styles.footer}
           display="flex"
           flex="column"
-          className="mx-auto py-3"
+          // className="mx-auto py-3"
           style={{ width: "90%" }}
         >
           <CDBBox display="flex" justifyContent="between" className={styles.flexWrap}>
@@ -33,10 +34,11 @@ export const Foooter = () => {
               <span className="ml-3 h5 font-weight-bold align-item-center border 1px-solid-black">About</span>
             </a> */}
               <p
-                className="h5 mb-4"
+              className={styles.headings}
+                // className="h5 mb-4"
                 style={{
                   fontWeight: "600",
-                  fontSize: "1.5em",
+                  fontSize: "2rem",
                   fontWeight: "bold",
                 }}
               >
@@ -56,7 +58,7 @@ export const Foooter = () => {
                 className="h5 mb-4"
                 style={{
                   fontWeight: "600",
-                  fontSize: "1.5em",
+                  fontSize: "2rem",
                   fontWeight: "bold",
                 }}
               >
@@ -106,7 +108,7 @@ export const Foooter = () => {
                 className="h5 mb-4"
                 style={{
                   fontWeight: "600",
-                  fontSize: "1.5em",
+                  fontSize: "2rem",
                   fontWeight: "bold",
                 }}
               >
@@ -127,8 +129,9 @@ export const Foooter = () => {
                 className="h5 mb-4"
                 style={{
                   fontWeight: "600",
-                  fontSize: "1.5em",
+                  fontSize: "2rem",
                   fontWeight: "bold",
+                  // marginTop:"5px" 
                 }}
               >
                 Get In Touch
